@@ -35,7 +35,7 @@ module.exports = async (req, res) => {
     Questions:
     ${questions.map((q, i) => `${i + 1}. ${q}`).join("\n")}
 
-    Provide clear and concise answers. Do not mark up and give in a single sentence using numbers where ever possible. Number them accordingly.`;
+    Provide clear and concise answers. Do not mark up and give in a single sentence and use digits where possible. Number them accordingly.`;
 
     const model = genAI.getGenerativeModel({ model: "gemini-2.5-flash" });
     const result = await model.generateContent(prompt);
