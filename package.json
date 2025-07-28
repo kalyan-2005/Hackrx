@@ -2,9 +2,9 @@
   "name": "vercel-backend",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "api/run.js",
   "scripts": {
-    "start": "node run.js",
+    "start": "node api/run.js"
   },
   "keywords": [],
   "author": "",
