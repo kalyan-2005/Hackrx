@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "functions": {
+    "api/run.js": {
+      "memory": 512,
+      "maxDuration": 20
+    }
+  }
+}
