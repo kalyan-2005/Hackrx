@@ -1,10 +1,9 @@
 const axios = require("axios");
 const pdf = require("pdf-parse");
+require("dotenv").config();
 const { GoogleGenerativeAI } = require("@google/generative-ai");
 
-const genAI = new GoogleGenerativeAI({
-  apiKey: process.env.GEMINI_API_KEY,
-});
+const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
 
 async function extractTextFromPDF(url) {
   const response = await axios.get(url, { responseType: "arraybuffer" });
