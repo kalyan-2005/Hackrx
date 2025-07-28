@@ -2,9 +2,9 @@
   "name": "vercel-backend",
   "version": "1.0.0",
   "description": "",
-  "main": "api/run.js",
+  "main": "api/hackrx/run.js",
   "scripts": {
-    "start": "node api/run.js"
+    "start": "node api/hackrx/run.js"
   },
   "keywords": [],
   "author": "",
