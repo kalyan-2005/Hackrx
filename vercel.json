@@ -1,7 +1,7 @@
 {
   "version": 2,
   "functions": {
-    "api/run.js": {
+    "api/hackrx/run.js": {
       "memory": 512,
       "maxDuration": 20
     }
